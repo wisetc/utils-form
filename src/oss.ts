@@ -52,7 +52,7 @@ export namespace OSSAPI {
         }
 
         if (typeof opts.basePath === 'string') {
-            _basePath === opts.basePath;
+            _basePath = opts.basePath;
         }
     }
 
@@ -109,7 +109,7 @@ export namespace OSSAPI {
     }
 
     export function getParams(name?: string): IParams | null {
-        if (_host === null) return null;
+        if (_host === '') return null;
 
         if (staticConfig === null) {
             staticConfig = getStaticConfig();
