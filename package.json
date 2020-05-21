@@ -28,9 +28,20 @@
   },
   "homepage": "https://github.com/wisetc/utils-form#readme",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "12.0.0",
+    "@types/js-base64": "2.3.1",
+    "@types/url-join": "4.0.0",
+    "@types/uuid": "8.0.0",
     "jest": "20.0.4",
     "rollup": "^2.10.5",
     "rollup-plugin-typescript2": "0.27.1",
     "typescript": "3.9.3"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "ezcrypto": "0.0.3",
+    "js-base64": "2.5.2",
+    "url-join": "4.0.1",
+    "uuid": "8.1.0"
   }
 }

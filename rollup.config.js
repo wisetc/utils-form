@@ -1,4 +1,5 @@
 import typescript from 'rollup-plugin-typescript2';
+import commonjs from '@rollup/plugin-commonjs';
 
 const tsconfigDefaults = { compilerOptions: { declaration: true } };
 const tsconfigOverride = { compilerOptions: { module: 'esnext' } };
@@ -13,6 +14,7 @@ function createConfig(opts) {
     input: opts.input,
 
     plugins: [
+      commonjs(),
       typescript({
         tsconfigDefaults,
         tsconfig: opts.tsconfig,
