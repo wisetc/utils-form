@@ -9,7 +9,7 @@
     "/docs"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "tsdx test",
     "build": "tsdx build",
     "prepare": "npm test && npm run build"
   },
@@ -31,7 +31,6 @@
     "@types/js-base64": "2.3.1",
     "@types/url-join": "4.0.0",
     "@types/uuid": "8.0.0",
-    "jest": "20.0.4",
     "tsdx": "^0.13.2",
     "typescript": "3.9.3"
   },
