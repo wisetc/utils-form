@@ -1,17 +1,17 @@
 {
   "name": "@wisetc/utils-form",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "表单的工具方法",
-  "main": "./lib/index.cjs.js",
-  "module": "./lib/index.esm.js",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.esm.js",
   "files": [
-    "/lib",
+    "/dist",
     "/docs"
   ],
   "scripts": {
     "test": "jest",
-    "build": "rollup -c rollup.config.js",
-    "prepare": "npm test && npm run build"
+    "build": "tsdx build",
+    "prepare": "tsdx prepare"
   },
   "repository": {
     "type": "git",
@@ -28,13 +28,11 @@
   },
   "homepage": "https://github.com/wisetc/utils-form#readme",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "12.0.0",
     "@types/js-base64": "2.3.1",
     "@types/url-join": "4.0.0",
     "@types/uuid": "8.0.0",
     "jest": "20.0.4",
-    "rollup": "^2.10.5",
-    "rollup-plugin-typescript2": "0.27.1",
+    "tsdx": "^0.13.2",
     "typescript": "3.9.3"
   },
   "dependencies": {
