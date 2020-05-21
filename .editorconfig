@@ -1,0 +1,6 @@
+[*.ts]
+tab_width = 4
+[*.yml]
+tab_width = 2
+[*.json]
+tab_width = 2
