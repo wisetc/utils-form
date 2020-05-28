@@ -8,6 +8,10 @@
   - OSSAPI
     - bootstrap
     - upload
+- pk
+  - `create$uid`
+  - `$uid`
+  - `$KEY`
 
 ```ts
 function upload(file: File): Promise<string>;

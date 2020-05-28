@@ -1,6 +1,6 @@
 {
   "name": "@wisetc/utils-form",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "表单的工具方法",
   "main": "./dist/index.js",
   "module": "./dist/utils-form.esm.js",
