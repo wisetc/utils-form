@@ -35,7 +35,7 @@
     "typescript": "3.9.3"
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "1.6.0",
     "ezcrypto": "0.0.3",
     "js-base64": "2.5.2",
     "url-join": "4.0.1",
